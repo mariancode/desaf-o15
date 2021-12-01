@@ -85,6 +85,12 @@
   font-size: 1.1em;
   color: #3f455d; }
 
+@media only screen and (max-width: 445px) {
+  .breadcrumb-item {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw; } }
+
 /*imágenes services e industries*/
 /*ANIMACIÓN*/
 .images {
